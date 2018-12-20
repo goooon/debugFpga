@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/14_ethernet_test/14_ethernet_test/test_uart_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_uart" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="45" />
+   <wvobject fp_name="/test_uart/UART_wt_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_wt_clk</obj_property>
+      <obj_property name="ObjectShortName">UART_wt_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/UART_wt_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_wt_full</obj_property>
+      <obj_property name="ObjectShortName">UART_wt_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/UART_tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_tx</obj_property>
+      <obj_property name="ObjectShortName">UART_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/UART_rd_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/UART_rd_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_empty</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/UART_rd_almostempty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_almostempty</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_almostempty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/nrst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nrst</obj_property>
+      <obj_property name="ObjectShortName">nrst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/tx_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_en</obj_property>
+      <obj_property name="ObjectShortName">tx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/rx_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_en</obj_property>
+      <obj_property name="ObjectShortName">rx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/UART_data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/UART_wt_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_wt_en</obj_property>
+      <obj_property name="ObjectShortName">UART_wt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/UART_rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_en</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/UART_rd_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_clk</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/nrst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nrst</obj_property>
+      <obj_property name="ObjectShortName">nrst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/tx_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_en</obj_property>
+      <obj_property name="ObjectShortName">tx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/rx_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_en</obj_property>
+      <obj_property name="ObjectShortName">rx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_wt_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_wt_en</obj_property>
+      <obj_property name="ObjectShortName">UART_wt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_wt_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_wt_clk</obj_property>
+      <obj_property name="ObjectShortName">UART_wt_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_en</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_wt_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_wt_full</obj_property>
+      <obj_property name="ObjectShortName">UART_wt_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_rd_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_clk</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rx</obj_property>
+      <obj_property name="ObjectShortName">UART_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_rd_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_rd_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_empty</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_rd_almostempty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_rd_almostempty</obj_property>
+      <obj_property name="ObjectShortName">UART_rd_almostempty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_txfifo_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_txfifo_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_txfifo_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_txfifo_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_txfifo_empty</obj_property>
+      <obj_property name="ObjectShortName">UART_txfifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/almost_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">almost_full</obj_property>
+      <obj_property name="ObjectShortName">almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_tx</obj_property>
+      <obj_property name="ObjectShortName">UART_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/tx_clk_div" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_clk_div[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_clk_div[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/txclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txclk</obj_property>
+      <obj_property name="ObjectShortName">txclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/tx_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/tx_data_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/UART_txfifo_rden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_txfifo_rden</obj_property>
+      <obj_property name="ObjectShortName">UART_txfifo_rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/rx_clk_div" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_clk_div[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_clk_div[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/rxclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxclk</obj_property>
+      <obj_property name="ObjectShortName">rxclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/rx_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/rx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/uart_rx_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">uart_rx_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/uart_fifo_wten" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">uart_fifo_wten</obj_property>
+      <obj_property name="ObjectShortName">uart_fifo_wten</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_uart/uut/rx_data_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_count[3:0]</obj_property>
+   </wvobject>
+</wave_config>

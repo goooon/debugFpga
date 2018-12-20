@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="udp">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-7-12T12:48:3</timestamp>
+    <attr value="udp" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-800" name="reset_n" />
+    <pin polarity="Input" x="0" y="-736" name="read_clk" />
+    <pin polarity="Input" x="0" y="-672" name="rd_en" />
+    <pin polarity="Input" x="0" y="-608" name="e_rxc" />
+    <pin polarity="Input" x="0" y="-544" name="e_rxdv" />
+    <pin polarity="Input" x="0" y="-480" name="e_txc" />
+    <pin polarity="Input" x="0" y="-416" name="wr_clk" />
+    <pin polarity="Input" x="0" y="-352" name="tx_enable" />
+    <pin polarity="Input" x="0" y="-288" name="wr_en" />
+    <pin polarity="Input" x="0" y="-224" name="e_rxd(7:0)" />
+    <pin polarity="Input" x="0" y="-160" name="etx_din(63:0)" />
+    <pin polarity="Input" x="0" y="-96" name="tx_data_length(15:0)" />
+    <pin polarity="Input" x="0" y="-32" name="tx_total_length(15:0)" />
+    <pin polarity="Output" x="560" y="-800" name="empty" />
+    <pin polarity="Output" x="560" y="-736" name="etx_full" />
+    <pin polarity="Output" x="560" y="-672" name="e_txen" />
+    <pin polarity="Output" x="560" y="-608" name="e_txer" />
+    <pin polarity="Output" x="560" y="-544" name="data_receive" />
+    <pin polarity="Output" x="560" y="-480" name="clk_oddr" />
+    <pin polarity="Output" x="560" y="-416" name="dout(63:0)" />
+    <pin polarity="Output" x="560" y="-352" name="rx_total_length(15:0)" />
+    <pin polarity="Output" x="560" y="-288" name="rx_data_length(15:0)" />
+    <pin polarity="Output" x="560" y="-224" name="e_txd(7:0)" />
+    <pin polarity="Output" x="560" y="-160" name="rx_state(3:0)" />
+    <pin polarity="Output" x="560" y="-96" name="tx_state(3:0)" />
+    <graph>
+        <rect width="432" x="64" y="-832" height="832" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="280" y="-840" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-800" type="pin reset_n" />
+        <line x2="0" y1="-800" y2="-800" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-736" type="pin read_clk" />
+        <line x2="0" y1="-736" y2="-736" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin rd_en" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin e_rxc" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin e_rxdv" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin e_txc" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin wr_clk" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin tx_enable" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin wr_en" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin e_rxd(7:0)" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin etx_din(63:0)" />
+        <rect width="64" x="0" y="-172" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin tx_data_length(15:0)" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin tx_total_length(15:0)" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-800" type="pin empty" />
+        <line x2="560" y1="-800" y2="-800" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-736" type="pin etx_full" />
+        <line x2="560" y1="-736" y2="-736" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-672" type="pin e_txen" />
+        <line x2="560" y1="-672" y2="-672" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-608" type="pin e_txer" />
+        <line x2="560" y1="-608" y2="-608" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-544" type="pin data_receive" />
+        <line x2="560" y1="-544" y2="-544" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-480" type="pin clk_oddr" />
+        <line x2="560" y1="-480" y2="-480" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-416" type="pin dout(63:0)" />
+        <rect width="64" x="496" y="-428" height="24" />
+        <line x2="560" y1="-416" y2="-416" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-352" type="pin rx_total_length(15:0)" />
+        <rect width="64" x="496" y="-364" height="24" />
+        <line x2="560" y1="-352" y2="-352" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-288" type="pin rx_data_length(15:0)" />
+        <rect width="64" x="496" y="-300" height="24" />
+        <line x2="560" y1="-288" y2="-288" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-224" type="pin e_txd(7:0)" />
+        <rect width="64" x="496" y="-236" height="24" />
+        <line x2="560" y1="-224" y2="-224" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-160" type="pin rx_state(3:0)" />
+        <rect width="64" x="496" y="-172" height="24" />
+        <line x2="560" y1="-160" y2="-160" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-96" type="pin tx_state(3:0)" />
+        <rect width="64" x="496" y="-108" height="24" />
+        <line x2="560" y1="-96" y2="-96" x1="496" />
+    </graph>
+</symbol>

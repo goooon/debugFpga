@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/14_ethernet_test/14_ethernet_test/test_camerlinknew_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_camerlinknew" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="66" />
+   <wvobject fp_name="/test_camerlinknew/contro/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/tx_data_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_length[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/tx_total_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_total_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_total_length[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/tx_data_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/byte_8_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">byte_8_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_8_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/pre_read_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pre_read_flag</obj_property>
+      <obj_property name="ObjectShortName">pre_read_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/tail_byte" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tail_byte</obj_property>
+      <obj_property name="ObjectShortName">tail_byte</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/case4_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">case4_flag</obj_property>
+      <obj_property name="ObjectShortName">case4_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/linedone_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">linedone_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">linedone_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camer_rden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camer_rden</obj_property>
+      <obj_property name="ObjectShortName">camer_rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camer_tatal_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">camer_tatal_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">camer_tatal_data[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/cameradata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cameradata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cameradata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camer_rdclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camer_rdclk</obj_property>
+      <obj_property name="ObjectShortName">camer_rdclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camer_fifo_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camer_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">camer_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/etx_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">etx_enable</obj_property>
+      <obj_property name="ObjectShortName">etx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/etx_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">etx_din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">etx_din[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/ewr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ewr_en</obj_property>
+      <obj_property name="ObjectShortName">ewr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/linedone" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">linedone</obj_property>
+      <obj_property name="ObjectShortName">linedone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/ewrclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ewrclk</obj_property>
+      <obj_property name="ObjectShortName">ewrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camerarxing" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camerarxing</obj_property>
+      <obj_property name="ObjectShortName">camerarxing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/etx_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">etx_full</obj_property>
+      <obj_property name="ObjectShortName">etx_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/nrst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nrst</obj_property>
+      <obj_property name="ObjectShortName">nrst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/rx_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_clk</obj_property>
+      <obj_property name="ObjectShortName">rx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/rx_locked" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_locked</obj_property>
+      <obj_property name="ObjectShortName">rx_locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/camerard_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camerard_clk</obj_property>
+      <obj_property name="ObjectShortName">camerard_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/camerard_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camerard_en</obj_property>
+      <obj_property name="ObjectShortName">camerard_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/rx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/fifo_wt_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_wt_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_wt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/instance_name/cameralmost_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cameralmost_empty</obj_property>
+      <obj_property name="ObjectShortName">cameralmost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/fifo_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/reset_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/tx_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/crc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">crc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">crc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/tx_data_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/tx_total_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_total_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_total_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/clk_oddr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_oddr</obj_property>
+      <obj_property name="ObjectShortName">clk_oddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/txen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txen</obj_property>
+      <obj_property name="ObjectShortName">txen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/txer" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txer</obj_property>
+      <obj_property name="ObjectShortName">txer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/fifo_rden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_rden</obj_property>
+      <obj_property name="ObjectShortName">fifo_rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/crcen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">crcen</obj_property>
+      <obj_property name="ObjectShortName">crcen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/crcre" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">crcre</obj_property>
+      <obj_property name="ObjectShortName">crcre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/crc_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">crc_valid</obj_property>
+      <obj_property name="ObjectShortName">crc_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/tx_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/ip_header" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ip_header[6:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_header[6:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/preamble" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">preamble[7:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">preamble[7:0,7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/mac_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mac_addr[13:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_addr[13:0,7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/j" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">j[4:0]</obj_property>
+      <obj_property name="ObjectShortName">j[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/tx_ing" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_ing</obj_property>
+      <obj_property name="ObjectShortName">tx_ing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/check_buffer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">check_buffer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">check_buffer[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/time_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">time_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">time_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/tx_data_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/fifo_dout_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_dout_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_dout_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/idle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">idle[3:0]</obj_property>
+      <obj_property name="ObjectShortName">idle[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/start" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">start[3:0]</obj_property>
+      <obj_property name="ObjectShortName">start[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/make" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">make[3:0]</obj_property>
+      <obj_property name="ObjectShortName">make[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/send55" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send55[3:0]</obj_property>
+      <obj_property name="ObjectShortName">send55[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/sendmac" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sendmac[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sendmac[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/sendheader" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sendheader[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sendheader[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/senddata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">senddata[3:0]</obj_property>
+      <obj_property name="ObjectShortName">senddata[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/u1/ipsend_instance/sendcrc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sendcrc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sendcrc[3:0]</obj_property>
+   </wvobject>
+</wave_config>

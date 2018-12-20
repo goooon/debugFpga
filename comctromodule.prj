@@ -1,0 +1,4 @@
+verilog work "test_earth_tx_rx.v"
+verilog work "test_earth_tx.v"
+verilog work "earth_cameraout.v"
+verilog work "comctromodule.v"

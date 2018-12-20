@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/hardware/ethernet_test/ethernet_testch_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="ethernet_testch" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/ethernet_testch/E_RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_RESET</obj_property>
+      <obj_property name="ObjectShortName">E_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethernet_testch/A_TLK_RXRATE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">A_TLK_RXRATE</obj_property>
+      <obj_property name="ObjectShortName">A_TLK_RXRATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethernet_testch/E_TXC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_TXC</obj_property>
+      <obj_property name="ObjectShortName">E_TXC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethernet_testch/E_TXEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E_TXEN</obj_property>
+      <obj_property name="ObjectShortName">E_TXEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethernet_testch/E_TXD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_TXD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">E_TXD[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethernet_testch/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethernet_testch/fpga_gclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fpga_gclk</obj_property>
+      <obj_property name="ObjectShortName">fpga_gclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethernet_testch/A_TLK_RXCLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">A_TLK_RXCLK</obj_property>
+      <obj_property name="ObjectShortName">A_TLK_RXCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethernet_testch/A_TLK_RXD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A_TLK_RXD[19:0]</obj_property>
+      <obj_property name="ObjectShortName">A_TLK_RXD[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethernet_testch/rx_couter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_couter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_couter[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

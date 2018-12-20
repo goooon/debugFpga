@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=F:\theproject\14_ethernet_test\impact.xsl
+OUTFILE=F:\theproject\14_ethernet_test\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=F:\theproject\14_ethernet_test
+LICENSE=iMPACT
+USER_INFO=iMPACT

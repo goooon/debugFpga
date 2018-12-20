@@ -1,0 +1,2 @@
+vhdtdtfi -lib work F:/theproject/14_ethernet_test/comctromodule.v -lang verilog -prj ethernet_test -o comctromodule.spl -module comctromodule -template D:/HYJ/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 comctromodule.spl F:/theproject/14_ethernet_test/comctromodule.sym 

@@ -1,0 +1,3 @@
+verilog isim_temp "UART_module.v"
+verilog isim_temp "test_uart.v"
+verilog isim_temp "D:/HYJ/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

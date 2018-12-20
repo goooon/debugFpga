@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/e_tx_fifo.v"
+verilog work "ftest_fifo3.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

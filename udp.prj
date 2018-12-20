@@ -1,0 +1,5 @@
+verilog work "rtl/ipsend.v"
+verilog work "rtl/iprecieve.v"
+verilog work "rtl/data_num.v"
+verilog work "rtl/crc.v"
+verilog work "rtl/udp.v"

@@ -1,0 +1,10 @@
+Command line:
+   test_camerlinknew_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  4638
+
+Mon Nov 07 13:27:57 2016
+
+
+ Elaboration Time: 0.078 sec

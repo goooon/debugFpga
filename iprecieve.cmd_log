@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj ethernet_test -o C:/14_ethernet_test/iprecieve.tfi -lib work C:/14_ethernet_test/rtl//iprecieve.v -module iprecieve -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj ethernet_test -o C:/14_ethernet_test/14_ethernet_test/iprecieve.tfi -lib work C:/14_ethernet_test/14_ethernet_test/rtl//iprecieve.v -module iprecieve -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

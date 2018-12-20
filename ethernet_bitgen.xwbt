@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\hardware\ethernet_test\ethernet.ncd
+OUTFILE=E:\hardware\ethernet_test\ethernet.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\hardware\ethernet_test
+LICENSE=WebPack
+USER_INFO=No user information available.

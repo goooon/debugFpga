@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator O.40d
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o E:\hardware\ethernet_test//ethernet -s 1024 -u 0000 E:/hardware/ethernet_test/ethernet.bit -spi 
+
+PROM E:\hardware\ethernet_test\ethernet.prm map: Mon Dec 16 17:11:48 2013
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          1024K
+PROM start    0000:0000
+PROM end      000f:ffff
+PROM checksum 09037883
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0007:1543     Dec 16 16:56:25 2013 E:/hardware/ethernet_test/ethernet.bit

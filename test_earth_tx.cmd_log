@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj ethernet_test -o F:/theproject/14_ethernet_test/test_earth_tx.tfi -lib work F:/theproject/14_ethernet_test//test_earth_tx.v -module test_earth_tx -template D:/HYJ/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj ethernet_test -o F:/theproject/14_ethernet_test/test_earth_tx.tfi -lib work F:/theproject/14_ethernet_test//test_earth_tx.v -module test_earth_tx -template D:/HYJ/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

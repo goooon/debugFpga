@@ -1,0 +1,89 @@
+ISim log file
+Running: F:\theproject\14_ethernet_test\test_camerlinknew_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/theproject/14_ethernet_test/test_camerlinknew_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 103.  For instance test_camerlinknew/contro/, width 64 of formal port data_in is not equal to width 1 of actual signal dout.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 105.  For instance test_camerlinknew/contro/, width 16 of formal port dadaLength is not equal to width 1 of actual signal rx_data_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 106.  For instance test_camerlinknew/contro/, width 16 of formal port totalLength is not equal to width 1 of actual signal rx_total_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 116.  For instance test_camerlinknew/contro/, width 64 of formal port ddr3_data is not equal to width 1 of actual signal ddr3_data.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 103.  For instance test_camerlinknew/u1/, width 64 of formal port dout is not equal to width 1 of actual signal dout.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 138.  For instance test_camerlinknew/u1/, width 8 of formal port e_rxd is not equal to width 1 of actual signal e_rxd.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 106.  For instance test_camerlinknew/u1/, width 16 of formal port rx_total_length is not equal to width 1 of actual signal rx_total_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 105.  For instance test_camerlinknew/u1/, width 16 of formal port rx_data_length is not equal to width 1 of actual signal rx_data_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 150.  For instance test_camerlinknew/u1/, width 8 of formal port e_txd is not equal to width 1 of actual signal e_txd.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 156.  For instance test_camerlinknew/u1/, width 4 of formal port rx_state is not equal to width 1 of actual signal rx_state.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 157.  For instance test_camerlinknew/u1/, width 4 of formal port tx_state is not equal to width 1 of actual signal tx_state.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Finished circuit initialization process.
+# run all
+Stopped at time : 222839240 ns : File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 180
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 103.  For instance test_camerlinknew/contro/, width 64 of formal port data_in is not equal to width 1 of actual signal dout.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 105.  For instance test_camerlinknew/contro/, width 16 of formal port dadaLength is not equal to width 1 of actual signal rx_data_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 106.  For instance test_camerlinknew/contro/, width 16 of formal port totalLength is not equal to width 1 of actual signal rx_total_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 116.  For instance test_camerlinknew/contro/, width 64 of formal port ddr3_data is not equal to width 1 of actual signal ddr3_data.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 103.  For instance test_camerlinknew/u1/, width 64 of formal port dout is not equal to width 1 of actual signal dout.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 138.  For instance test_camerlinknew/u1/, width 8 of formal port e_rxd is not equal to width 1 of actual signal e_rxd.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 106.  For instance test_camerlinknew/u1/, width 16 of formal port rx_total_length is not equal to width 1 of actual signal rx_total_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 105.  For instance test_camerlinknew/u1/, width 16 of formal port rx_data_length is not equal to width 1 of actual signal rx_data_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 150.  For instance test_camerlinknew/u1/, width 8 of formal port e_txd is not equal to width 1 of actual signal e_txd.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 156.  For instance test_camerlinknew/u1/, width 4 of formal port rx_state is not equal to width 1 of actual signal rx_state.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 157.  For instance test_camerlinknew/u1/, width 4 of formal port tx_state is not equal to width 1 of actual signal tx_state.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Finished circuit initialization process.
+# run all
+Stopped at time : 243853 us : File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 176
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 103.  For instance test_camerlinknew/contro/, width 64 of formal port data_in is not equal to width 1 of actual signal dout.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 105.  For instance test_camerlinknew/contro/, width 16 of formal port dadaLength is not equal to width 1 of actual signal rx_data_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 106.  For instance test_camerlinknew/contro/, width 16 of formal port totalLength is not equal to width 1 of actual signal rx_total_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 116.  For instance test_camerlinknew/contro/, width 64 of formal port ddr3_data is not equal to width 1 of actual signal ddr3_data.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 103.  For instance test_camerlinknew/u1/, width 64 of formal port dout is not equal to width 1 of actual signal dout.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 138.  For instance test_camerlinknew/u1/, width 8 of formal port e_rxd is not equal to width 1 of actual signal e_rxd.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 106.  For instance test_camerlinknew/u1/, width 16 of formal port rx_total_length is not equal to width 1 of actual signal rx_total_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 105.  For instance test_camerlinknew/u1/, width 16 of formal port rx_data_length is not equal to width 1 of actual signal rx_data_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 150.  For instance test_camerlinknew/u1/, width 8 of formal port e_txd is not equal to width 1 of actual signal e_txd.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 156.  For instance test_camerlinknew/u1/, width 4 of formal port rx_state is not equal to width 1 of actual signal rx_state.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 157.  For instance test_camerlinknew/u1/, width 4 of formal port tx_state is not equal to width 1 of actual signal tx_state.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Finished circuit initialization process.
+# run all
+Stopped at time : 2564989376 ns : File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 184
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 103.  For instance test_camerlinknew/contro/, width 64 of formal port data_in is not equal to width 1 of actual signal dout.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 105.  For instance test_camerlinknew/contro/, width 16 of formal port dadaLength is not equal to width 1 of actual signal rx_data_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 106.  For instance test_camerlinknew/contro/, width 16 of formal port totalLength is not equal to width 1 of actual signal rx_total_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 116.  For instance test_camerlinknew/contro/, width 64 of formal port ddr3_data is not equal to width 1 of actual signal ddr3_data.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 103.  For instance test_camerlinknew/u1/, width 64 of formal port dout is not equal to width 1 of actual signal dout.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 138.  For instance test_camerlinknew/u1/, width 8 of formal port e_rxd is not equal to width 1 of actual signal e_rxd.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 106.  For instance test_camerlinknew/u1/, width 16 of formal port rx_total_length is not equal to width 1 of actual signal rx_total_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 105.  For instance test_camerlinknew/u1/, width 16 of formal port rx_data_length is not equal to width 1 of actual signal rx_data_length.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 150.  For instance test_camerlinknew/u1/, width 8 of formal port e_txd is not equal to width 1 of actual signal e_txd.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 156.  For instance test_camerlinknew/u1/, width 4 of formal port rx_state is not equal to width 1 of actual signal rx_state.
+WARNING: File "F:/theproject/14_ethernet_test/test_camerlinknew.v" Line 157.  For instance test_camerlinknew/u1/, width 4 of formal port tx_state is not equal to width 1 of actual signal tx_state.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Finished circuit initialization process.
+# run all
+Stopped at time : 294162730 ns : File "F:/theproject/14_ethernet_test/controler.v" Line 103

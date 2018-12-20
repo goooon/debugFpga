@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj ethernet_test -o C:/14_ethernet_test/ddr_con.tfi -lib work C:/14_ethernet_test//ddr_con.v -module ddr_con -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj ethernet_test -o D:/HYJ/Xilinx/Myproject/14_ethernet_test/ddr_con.tfi -lib work D:/HYJ/Xilinx/Myproject/14_ethernet_test//ddr_con.v -module ddr_con -template D:/HYJ/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

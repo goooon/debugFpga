@@ -1,0 +1,573 @@
+Release 13.1 - ngc2edif O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2 :
+   0] on block fifo is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_cs.edif ...
+ngc2edif: Total memory usage is 38344 kilobytes
+
+Release 13.1 - ngc2edif O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2 :
+   0] on block fifo is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_cs.edif ...
+ngc2edif: Total memory usage is 38344 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly[2 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly[4 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ip_header_0[223 : 0] on block ipsend is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0751[223 : 0] on block ipsend is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_7_o_GND_7_o_sub_97_OUT_lut[15 :
+   1] on block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut[17 : 0] on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_10_o_GND_10_o_sub_72_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus ram_data_i<30 : 0> on block
+   ethernet_test is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 94452 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly[2 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly[4 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ip_header_0[223 : 0] on block ipsend is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0751[223 : 0] on block ipsend is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_7_o_GND_7_o_sub_97_OUT_lut[15 :
+   1] on block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut[17 : 0] on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_10_o_GND_10_o_sub_72_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus ram_data_i<30 : 0> on block
+   ethernet_test is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 94260 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ram.ngc ...
+WARNING:NetListWriters:298 - No output is written to ram.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file ram.edif ...
+ngc2edif: Total memory usage is 81140 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to fifo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file fifo.edif ...
+ngc2edif: Total memory usage is 81140 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design fifo_64_16.ngc ...
+WARNING:NetListWriters:298 - No output is written to fifo_64_16.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file fifo_64_16.edif ...
+ngc2edif: Total memory usage is 81140 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n0778_lut<5 : 3> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ip_header_0<223 : 0> on block ipsend is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_7_o_GND_7_o_sub_97_OUT_lut<15 :
+   1> on block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut<17 : 0> on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_12_o_GND_12_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 94756 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n0778_lut<5 : 3> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ip_header_0<223 : 0> on block ipsend is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_7_o_GND_7_o_sub_97_OUT_lut<15 :
+   1> on block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut<17 : 0> on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_12_o_GND_12_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 94756 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut[17 : 0] on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_11_o_GND_11_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 91876 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut[17 : 0] on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_11_o_GND_11_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 96700 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut[17 : 0] on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_11_o_GND_11_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 96316 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut[17 : 0] on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_11_o_GND_11_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 95740 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut[17 : 0] on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_11_o_GND_11_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 95804 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n0710[9:0]_lut<6 : 4> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ip_header_0<223 : 0> on block ipsend is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0588<7 : 0> on block ipsend is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_7_o_GND_7_o_sub_93_OUT_lut<15 :
+   1> on block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut<17 : 0> on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_11_o_GND_11_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 96764 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n0710[9:0]_lut<6 : 4> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ip_header_0<223 : 0> on block ipsend is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0588<7 : 0> on block ipsend is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_7_o_GND_7_o_sub_93_OUT_lut<15 :
+   1> on block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut<17 : 0> on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_11_o_GND_11_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 96764 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ethernet_test_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg[7 : 0] on block
+   iodrp_mcb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus memcell_addr_reg<7 : 0> on block
+   iodrp_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus IODRPCTRLR_MEMCELL_ADDR<7 : 0> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n2102<8 : 1> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n0710[9:0]_lut<6 : 4> on block
+   mcb_soft_calibration is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ip_header_0<223 : 0> on block ipsend is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_7_o_GND_7_o_sub_44_OUT_lut<15 :
+   1> on block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ADDERTREE_INTERNAL_Madd8_lut<17 : 0> on
+   block ipsend is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_11_o_GND_11_o_sub_76_OUT_lut<15
+   : 1> on block iprecieve is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file ethernet_test_cs.edif ...
+ngc2edif: Total memory usage is 97340 kilobytes
+

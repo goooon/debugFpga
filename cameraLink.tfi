@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+cameraLink instance_name (
+    .pClk(pClk), 
+    .nrst(nrst), 
+    .empty(empty), 
+    .dat(dat), 
+    .tx(tx), 
+    .syncOrNot(syncOrNot), 
+    .sync_out(sync_out), 
+    .txclk(txclk), 
+    .cc_en(cc_en), 
+    .pwr_dwn_n(pwr_dwn_n), 
+    .read_en(read_en), 
+    .ccen_n(ccen_n)
+    );
+
+

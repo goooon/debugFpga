@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj ethernet_test -o C:/14_ethernet_test/14_ethernet_test/cameraLink.tfi -lib work C:/14_ethernet_test/14_ethernet_test//cameraLink.v -module cameraLink -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

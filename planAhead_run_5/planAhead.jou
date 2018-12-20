@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Jul 13 14:45:19 2016
+# Process ID: 10812
+# Log file: C:/14_ethernet_test/planAhead_run_5/planAhead.log
+# Journal file: C:/14_ethernet_test/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/14_ethernet_test/pa.fromNcd.tcl
+startgroup
+unplace_cell  [get_cells [list  u1/ipsend_instance/Mmux__n052063 u1/ipsend_instance/Mmux__n052064 u1/ipsend_instance/dataout_2_rstpot u1/ipsend_instance/dataout_2] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+place_cell u1/ipsend_instance/Mmux__n052063_F SLICE_X122Y55/B6LUT
+place_cell u1/ipsend_instance/Mmux__n052064 SLICE_X122Y54
+place_cell u1/ipsend_instance/dataout_2_rstpot SLICE_X122Y54
+place_cell u1/ipsend_instance/dataout_2 SLICE_X122Y54
+endgroup
+undo
+startgroup
+unplace_cell  [get_cells [list  u1/ipsend_instance/Mmux__n052063 u1/ipsend_instance/Mmux__n052064 u1/ipsend_instance/dataout_2_rstpot u1/ipsend_instance/dataout_2] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+place_cell u1/ipsend_instance/Mmux__n052063_F SLICE_X122Y55/B6LUT
+place_cell u1/ipsend_instance/Mmux__n052064 SLICE_X122Y54
+place_cell u1/ipsend_instance/dataout_2_rstpot SLICE_X122Y54
+place_cell u1/ipsend_instance/dataout_2 SLICE_X122Y54
+endgroup
+undo
+startgroup
+unplace_cell  [get_cells [list  u1/ipsend_instance/Mmux__n052063 u1/ipsend_instance/Mmux__n052064 u1/ipsend_instance/dataout_2_rstpot u1/ipsend_instance/dataout_2] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+place_cell u1/ipsend_instance/Mmux__n052063_F SLICE_X122Y55/B6LUT
+place_cell u1/ipsend_instance/Mmux__n052064 SLICE_X122Y54
+place_cell u1/ipsend_instance/dataout_2_rstpot SLICE_X122Y54
+place_cell u1/ipsend_instance/dataout_2 SLICE_X122Y54
+endgroup
+startgroup
+place_cell u1/ipsend_instance/ip_header_0_0 SLICE_X100Y63/B5FF
+endgroup
+startgroup
+place_cell u1/ipsend_instance/ip_header_0_0 SLICE_X100Y63/BFF
+endgroup

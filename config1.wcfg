@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/HYJ/Xilinx/Myproject/14_ethernet_test/test_ipsend_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_ipsend" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/test_ipsend/crc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">crc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">crc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/almost_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">almost_full</obj_property>
+      <obj_property name="ObjectShortName">almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/txen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txen</obj_property>
+      <obj_property name="ObjectShortName">txen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/txer" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txer</obj_property>
+      <obj_property name="ObjectShortName">txer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/crcen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">crcen</obj_property>
+      <obj_property name="ObjectShortName">crcen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/crcre" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">crcre</obj_property>
+      <obj_property name="ObjectShortName">crcre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/crc_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">crc_valid</obj_property>
+      <obj_property name="ObjectShortName">crc_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/tx_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/clk_oddr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_oddr</obj_property>
+      <obj_property name="ObjectShortName">clk_oddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/crcnext" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">crcnext</obj_property>
+      <obj_property name="ObjectShortName">crcnext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/wr_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/reset_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/tx_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/tx_data_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/tx_total_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_total_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_total_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/udp_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">udp_data[2:0,63:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_data[2:0,63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ipsend/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din[63:0]</obj_property>
+   </wvobject>
+</wave_config>

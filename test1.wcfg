@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/14_ethernet_test/14_ethernet_test/test_camerlinknew_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_camerlinknew" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/test_camerlinknew/contro/linedone" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">linedone</obj_property>
+      <obj_property name="ObjectShortName">linedone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/cameradata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cameradata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cameradata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camer_tatal_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">camer_tatal_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">camer_tatal_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camer_rdclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camer_rdclk</obj_property>
+      <obj_property name="ObjectShortName">camer_rdclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camer_fifo_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camer_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">camer_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/etx_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">etx_enable</obj_property>
+      <obj_property name="ObjectShortName">etx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/etx_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">etx_din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">etx_din[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/tx_data_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_length[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/tx_total_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_total_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_total_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/case4_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">case4_flag</obj_property>
+      <obj_property name="ObjectShortName">case4_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camerarxing" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camerarxing</obj_property>
+      <obj_property name="ObjectShortName">camerarxing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/etx_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">etx_full</obj_property>
+      <obj_property name="ObjectShortName">etx_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/linedone_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">linedone_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">linedone_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/camer_rden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">camer_rden</obj_property>
+      <obj_property name="ObjectShortName">camer_rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/ewr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ewr_en</obj_property>
+      <obj_property name="ObjectShortName">ewr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/ewrclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ewrclk</obj_property>
+      <obj_property name="ObjectShortName">ewrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/tx_data_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_count[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_camerlinknew/contro/byte_8_length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">byte_8_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_8_length[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

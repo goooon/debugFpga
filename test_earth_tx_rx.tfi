@@ -1,0 +1,22 @@
+
+
+
+// Instantiate the module
+test_earth_tx_rx instance_name (
+    .clk(clk), 
+    .e_rd_en_o(e_rd_en_o), 
+    .data_in(data_in), 
+    .empty(empty), 
+    .dadaLength(dadaLength), 
+    .totalLength(totalLength), 
+    .etx_empty(etx_empty), 
+    .etx_enable(etx_enable), 
+    .etx_din(etx_din), 
+    .etx_full(etx_full), 
+    .ewr_en(ewr_en), 
+    .tx_data_length(tx_data_length), 
+    .tx_total_length(tx_total_length), 
+    .etx_fifo_rst(etx_fifo_rst)
+    );
+
+

@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator O.40d
+# Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION O.40d
+DATE            12/16/2013 - 17:11
+SOURCE          E:\hardware\ethernet_test\ethernet.mcs
+DEVICE          1024K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x09037883
+START_ADDRESS   0x00000000 END_ADDRESS 0x00071543 DIRECTION_UP   "E:/hardware/ethernet_test/ethernet.bit" 6slx16csg324

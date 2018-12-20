@@ -1,0 +1,113 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\HYJ\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p
+xc6slx150-fgg484-2 ethernet_test_cs.ngc ethernet_test.ngd
+
+Reading NGO file "F:/theproject/14_ethernet_test/ethernet_test_cs.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "rtl/udp.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance u_pll_adv. The following
+   new TNM groups and period specifications were generated at the PLL_ADV
+   output(s): 
+   CLKOUT3: <TIMESPEC
+   TS_ddr_con_c3_myddr3_memc3_infrastructure_inst_mcb_drp_clk_bufg_in = PERIOD
+   "ddr_con_c3_myddr3_memc3_infrastructure_inst_mcb_drp_clk_bufg_in"
+   TS_sys_clk_pin / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance u_pll_adv. The following
+   new TNM groups and period specifications were generated at the PLL_ADV
+   output(s): 
+   CLKOUT1: <TIMESPEC TS_ddr_con_c3_myddr3_memc3_infrastructure_inst_clk_2x_180
+   = PERIOD "ddr_con_c3_myddr3_memc3_infrastructure_inst_clk_2x_180"
+   TS_sys_clk_pin / 8 PHASE 1.25 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance u_pll_adv. The following
+   new TNM groups and period specifications were generated at the PLL_ADV
+   output(s): 
+   CLKOUT0: <TIMESPEC TS_ddr_con_c3_myddr3_memc3_infrastructure_inst_clk_2x_0 =
+   PERIOD "ddr_con_c3_myddr3_memc3_infrastructure_inst_clk_2x_0" TS_sys_clk_pin
+   / 8 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance u_pll_adv. The following
+   new TNM groups and period specifications were generated at the PLL_ADV
+   output(s): 
+   CLKOUT2: <TIMESPEC
+   TS_ddr_con_c3_myddr3_memc3_infrastructure_inst_clk0_bufg_in = PERIOD
+   "ddr_con_c3_myddr3_memc3_infrastructure_inst_clk0_bufg_in" TS_sys_clk_pin / 2
+   HIGH 50%>
+
+WARNING:NgdBuild:1345 - The constraint <TIMESPEC TS_sys_clk = PERIOD sys_clk_pin
+   50000 kHz;> [rtl/udp.ucf(3)] is overridden by the constraint <TIMESPEC
+   "TS_sys_clk_pin" = PERIOD "sys_clk_pin" 20  ns HIGH 50 %;> [rtl/udp.ucf(64)].
+   The overriden constraint usually comes from the input netlist or ncf files.
+   Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an
+   error.
+Done...
+
+WARNING:NgdBuild:1440 - User specified non-default attribute value (12.8) was
+   detected for the CLKIN1_PERIOD attribute on PLL "u_pll_adv".  This does not
+   match the PERIOD constraint value (20 ns.).  The uncertainty calculation will
+   use the PERIOD constraint value.  This could result in incorrect uncertainty
+   calculated for PLL output clocks.
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N26' has no driver
+WARNING:NgdBuild:452 - logical net 'N27' has no driver
+WARNING:NgdBuild:452 - logical net 'N28' has no driver
+WARNING:NgdBuild:452 - logical net 'N29' has no driver
+WARNING:NgdBuild:452 - logical net 'N30' has no driver
+WARNING:NgdBuild:452 - logical net 'N31' has no driver
+WARNING:NgdBuild:452 - logical net 'N32' has no driver
+WARNING:NgdBuild:452 - logical net 'N33' has no driver
+WARNING:NgdBuild:452 - logical net 'N34' has no driver
+WARNING:NgdBuild:452 - logical net 'N35' has no driver
+WARNING:NgdBuild:452 - logical net 'N36' has no driver
+WARNING:NgdBuild:452 - logical net 'N37' has no driver
+WARNING:NgdBuild:452 - logical net 'N38' has no driver
+WARNING:NgdBuild:452 - logical net 'N39' has no driver
+WARNING:NgdBuild:452 - logical net 'N40' has no driver
+WARNING:NgdBuild:452 - logical net 'N41' has no driver
+WARNING:NgdBuild:452 - logical net 'N42' has no driver
+WARNING:NgdBuild:452 - logical net 'N43' has no driver
+WARNING:NgdBuild:452 - logical net 'N44' has no driver
+WARNING:NgdBuild:452 - logical net 'N45' has no driver
+WARNING:NgdBuild:452 - logical net 'N46' has no driver
+WARNING:NgdBuild:452 - logical net 'N47' has no driver
+WARNING:NgdBuild:452 - logical net 'u1/data_receive' has no driver
+WARNING:NgdBuild:452 - logical net 'ddr_con_c3/c3_p0_wr_underrun' has no driver
+WARNING:NgdBuild:452 - logical net 'ddr_con_c3/myddr3/c3_p0_wr_error' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ddr_con_c3/myddr3/c3_p0_rd_overflow' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ddr_con_c3/myddr3/c3_p0_rd_error' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ddr_con_c3/myddr3/c3_p1_wr_underrun' has no
+   driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  30
+
+Total memory usage is 238320 kilobytes
+
+Writing NGD file "ethernet_test.ngd" ...
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   8 sec
+
+Writing NGDBUILD log file "ethernet_test.bld"...

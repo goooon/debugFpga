@@ -1,0 +1,33 @@
+
+
+
+// Instantiate the module
+udp instance_name (
+    .reset_n(reset_n), 
+    .read_clk(read_clk), 
+    .rd_en(rd_en), 
+    .dout(dout), 
+    .empty(empty), 
+    .e_rxc(e_rxc), 
+    .e_rxd(e_rxd), 
+    .e_rxdv(e_rxdv), 
+    .rx_total_length(rx_total_length), 
+    .rx_data_length(rx_data_length), 
+    .e_txc(e_txc), 
+    .wr_clk(wr_clk), 
+    .tx_enable(tx_enable), 
+    .wr_en(wr_en), 
+    .etx_full(etx_full), 
+    .e_txen(e_txen), 
+    .e_txd(e_txd), 
+    .e_txer(e_txer), 
+    .etx_din(etx_din), 
+    .tx_data_length(tx_data_length), 
+    .tx_total_length(tx_total_length), 
+    .data_receive(data_receive), 
+    .rx_state(rx_state), 
+    .tx_state(tx_state), 
+    .clk_oddr(clk_oddr)
+    );
+
+

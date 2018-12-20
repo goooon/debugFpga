@@ -1,0 +1,24 @@
+
+
+
+// Instantiate the module
+camerain_earth instance_name (
+    .en(en), 
+    .clk(clk), 
+    .e_reset_n(e_reset_n), 
+    .etx_enable(etx_enable), 
+    .etx_din(etx_din), 
+    .etx_full(etx_full), 
+    .etx_empty(etx_empty), 
+    .ewr_en(ewr_en), 
+    .etx_fifo_rst(etx_fifo_rst), 
+    .tx_data_length(tx_data_length), 
+    .tx_total_length(tx_total_length), 
+    .linedone(linedone), 
+    .cameradata(cameradata), 
+    .camer_tatal_data(camer_tatal_data), 
+    .camer_rden(camer_rden), 
+    .camer_fifo_empty(camer_fifo_empty)
+    );
+
+

@@ -1,0 +1,22 @@
+
+
+
+// Instantiate the module
+CamerLinkRX instance_name (
+    .Datin(Datin), 
+    .nrst(nrst), 
+    .camerard_clk(camerard_clk), 
+    .camerard_en(camerard_en), 
+    .rx_clk(rx_clk), 
+    .rx_locked(rx_locked), 
+    .ameradout(ameradout), 
+    .cameralmost_empty(cameralmost_empty), 
+    .rx_refclk(rx_refclk), 
+    .rclk_f(rclk_f), 
+    .rx_pwdrn(rx_pwdrn), 
+    .rx_en(rx_en), 
+    .data_length(data_length), 
+    .Line_final(Line_final)
+    );
+
+

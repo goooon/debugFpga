@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj ethernet_test -o F:/theproject/14_ethernet_test/camerlinkrx_earth.tfi -lib work F:/theproject/14_ethernet_test//camerlinkrx_earth.v -module camerlinkrx_earth -template D:/HYJ/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

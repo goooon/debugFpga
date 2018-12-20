@@ -1,0 +1,4 @@
+vhdtdtfi -lang verilog -prj ethernet_test -o D:/HYJ/Xilinx/Myproject/14_ethernet_test/udp.tfi -lib work D:/HYJ/Xilinx/Myproject/14_ethernet_test/rtl//udp.v -module udp -template D:/HYJ/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/14_ethernet_test/14_ethernet_test/rtl/udp.v -lang verilog -prj ethernet_test -o udp.spl -module udp -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 udp.spl C:/14_ethernet_test/14_ethernet_test/udp.sym 
+vhdtdtfi -lang verilog -prj ethernet_test -o C:/14_ethernet_test/udp.tfi -lib work C:/14_ethernet_test/rtl//udp.v -module udp -template D:/HYJ/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,25 @@
+Release 13.1 - par O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Fri Jun 20 11:04:07 2014
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 13 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   A_TLK_RXD_10_IBUF
+   A_TLK_RXD_11_IBUF
+   A_TLK_RXD_12_IBUF
+   A_TLK_RXD_13_IBUF
+   A_TLK_RXD_14_IBUF
+   A_TLK_RXD_15_IBUF
+   A_TLK_RXD_17_IBUF
+   A_TLK_RXD_18_IBUF
+   A_TLK_RXD_19_IBUF
+   A_TLK_RXD_8_IBUF
+   A_TLK_RXD_9_IBUF
+   fifo_rw/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.gpf.wrpf/wr_pntr_plus1_pad<0>_mand1
+   fpga_gclk_IBUF
+
+

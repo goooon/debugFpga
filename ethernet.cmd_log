@@ -1,0 +1,1027 @@
+xst -intstyle ise -ifn "D:/project/Verilog_luo/ethernet_test/ethernet.xst" -ofn "D:/project/Verilog_luo/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/project/Verilog_luo/ethernet_test/ethernet.xst" -ofn "D:/project/Verilog_luo/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/project/Verilog_luo/ethernet_test/ethernet.xst" -ofn "D:/project/Verilog_luo/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/project/Verilog_luo/ethernet_test/ethernet.xst" -ofn "D:/project/Verilog_luo/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/project/Verilog_luo/ethernet_test/ethernet.xst" -ofn "D:/project/Verilog_luo/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/Verilog_luo/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/Project/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/Project/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/Project/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/Project/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/Project/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/Project/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "D:/ethernet_test/ethernet_test/ethernet.xst" -ofn "D:/ethernet_test/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 
+xst -intstyle ise -ifn "E:/hardware/ethernet_test/ethernet.xst" -ofn "E:/hardware/ethernet_test/ethernet.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc rtl/udp.ucf -p xc6slx16-csg324-3 ethernet_cs.ngc ethernet.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ethernet_map.ncd ethernet.ngd ethernet.pcf 
+par -w -intstyle ise -ol high -mt off ethernet_map.ncd ethernet.ncd ethernet.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ethernet.twx ethernet.ncd -o ethernet.twr ethernet.pcf 
+bitgen -intstyle ise -f ethernet.ut ethernet.ncd 

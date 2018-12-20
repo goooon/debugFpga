@@ -1,0 +1,26 @@
+
+
+
+// Instantiate the module
+earth_cameraout instance_name (
+    .clk(clk), 
+    .e_rd_en_o(e_rd_en_o), 
+    .data_in(data_in), 
+    .empty(empty), 
+    .dadaLength(dadaLength), 
+    .totalLength(totalLength), 
+    .ewrclk(ewrclk), 
+    .etx_enable(etx_enable), 
+    .etx_din(etx_din), 
+    .etx_full(etx_full), 
+    .ewr_en(ewr_en), 
+    .tx_data_length(tx_data_length), 
+    .tx_total_length(tx_total_length), 
+    .ddr3_data(ddr3_data), 
+    .ddr3_wren(ddr3_wren), 
+    .ddr3_full(ddr3_full), 
+    .ddr3_wr_clk(ddr3_wr_clk), 
+    .ddr_dataneed(ddr_dataneed)
+    );
+
+

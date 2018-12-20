@@ -1,0 +1,38 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Nov 28 20:52:08 2016
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 26 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   cameraRX_data<0>_IBUF
+   cameraRX_data<1>_IBUF
+   cameraRX_data<2>_IBUF
+   cameraRX_data<3>_IBUF
+   cameraRX_data<4>_IBUF
+   cameraRX_data<5>_IBUF
+   cameraRX_data<6>_IBUF
+   cameraRX_data<7>_IBUF
+   cameraRX_data<8>_IBUF
+   cameraRX_data<9>_IBUF
+   camera_rx_clk_IBUF
+   camera_rx_locked_IBUF
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_cal_start
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_cmd_ready_in
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<0>
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<1>
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<2>
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<3>
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<4>
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<5>
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<6>
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<7>
+   ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data_valid
+   e_rxer_IBUF
+   e_txc_IBUF
+   sync_out_IBUF
+
+

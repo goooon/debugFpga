@@ -1,0 +1,401 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DELL-PC::  Mon Nov 28 20:50:41 2016
+
+par -w -intstyle ise -ol high -mt off ethernet_test_map.ncd ethernet_test.ncd
+ethernet_test.pcf 
+
+
+Constraints file: ethernet_test.pcf.
+Loading device for application Rf_Device from file '6slx150.nph' in environment D:\HYJ\Xilinx\14.7\ISE_DS\ISE\.
+   "ethernet_test" is an NCD, version 3.2, device xc6slx150, package fgg484, speed -2
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 2,833 out of 184,304    1%
+    Number used as Flip Flops:               2,817
+    Number used as Latches:                      2
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:               14
+  Number of Slice LUTs:                      3,039 out of  92,152    3%
+    Number used as logic:                    2,512 out of  92,152    2%
+      Number using O6 output only:           1,671
+      Number using O5 output only:             305
+      Number using O5 and O6:                  536
+      Number used as ROM:                        0
+    Number used as Memory:                     281 out of  21,680    1%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           281
+        Number using O6 output only:           264
+        Number using O5 output only:             2
+        Number using O5 and O6:                 15
+    Number used exclusively as route-thrus:    246
+      Number with same-slice register load:    217
+      Number with same-slice carry load:        29
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,382 out of  23,038    5%
+  Number of MUXCYs used:                       900 out of  46,076    1%
+  Number of LUT Flip Flop pairs used:        3,899
+    Number with an unused Flip Flop:         1,440 out of   3,899   36%
+    Number with an unused LUT:                 860 out of   3,899   22%
+    Number of fully used LUT-FF pairs:       1,599 out of   3,899   41%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of 184,304    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       129 out of     338   38%
+    Number of LOCed IOBs:                      129 out of     129  100%
+    IOB Flip Flops:                              3
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                       131 out of     268   48%
+  Number of RAMB8BWERs:                          3 out of     536    1%
+  Number of BUFIO2/BUFIO2_2CLKs:                 2 out of      32    6%
+    Number used as BUFIO2s:                      2
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             2 out of      32    6%
+    Number used as BUFIO2FBs:                    2
+    Number used as BUFIO2FB_2CLKs:               0
+  Number of BUFG/BUFGMUXs:                      10 out of      16   62%
+    Number used as BUFGs:                        9
+    Number used as BUFGMUX:                      1
+  Number of DCM/DCM_CLKGENs:                     1 out of      12    8%
+    Number used as DCMs:                         1
+    Number used as DCM_CLKGENs:                  0
+  Number of ILOGIC2/ISERDES2s:                   0 out of     586    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:        24 out of     586    4%
+    Number used as IODELAY2s:                    0
+    Number used as IODRP2s:                      2
+    Number used as IODRP2_MCBs:                 22
+  Number of OLOGIC2/OSERDES2s:                  49 out of     586    8%
+    Number used as OLOGIC2s:                     3
+    Number used as OSERDES2s:                   46
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHs:                               0 out of     384    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         1 out of       4   25%
+  Number of DSP48A1s:                            0 out of     180    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                1 out of       4   25%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            2 out of       6   33%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 9 secs 
+Finished initial Timing Analysis.  REAL time: 9 secs 
+
+WARNING:Par:288 - The signal camera_rx_clk_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal e_txc_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal camera_rx_locked_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal e_rxer_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<0>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<1>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<2>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<3>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<4>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<5>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<6>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<7>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<8>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal cameraRX_data<9>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sync_out_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<7> has no load.  PAR will not
+   attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<6> has no load.  PAR will not
+   attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<5> has no load.  PAR will not
+   attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<4> has no load.  PAR will not
+   attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<3> has no load.  PAR will not
+   attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<2> has no load.  PAR will not
+   attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<1> has no load.  PAR will not
+   attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<0> has no load.  PAR will not
+   attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data_valid has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_cmd_ready_in has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal ddr_con_c3/myddr3/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_cal_start has no load.  PAR will
+   not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 33942 unrouted;      REAL time: 10 secs 
+
+Phase  2  : 20495 unrouted;      REAL time: 16 secs 
+
+Phase  3  : 6326 unrouted;      REAL time: 35 secs 
+
+Phase  4  : 6431 unrouted; (Setup:4956, Hold:0, Component Switching Limit:0)     REAL time: 47 secs 
+
+Updating file: ethernet_test.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:4956, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 15 secs 
+
+Phase  6  : 0 unrouted; (Setup:4956, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 16 secs 
+
+Phase  7  : 0 unrouted; (Setup:4956, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 24 secs 
+
+Phase  8  : 0 unrouted; (Setup:4956, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 24 secs 
+
+Phase  9  : 0 unrouted; (Setup:4956, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 24 secs 
+
+Phase 10  : 0 unrouted; (Setup:4956, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 25 secs 
+Total REAL time to Router completion: 1 mins 25 secs 
+Total CPU time to Router completion: 1 mins 26 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|        camerard_clk | BUFGMUX_X2Y10| No   |  161 |  0.239     |  1.973      |
++---------------------+--------------+------+------+------------+-------------+
+|         e_rxc_BUFGP | BUFGMUX_X3Y15| No   |   80 |  0.099     |  1.925      |
++---------------------+--------------+------+------+------------+-------------+
+|              e_gtxc | BUFGMUX_X3Y14| No   |  407 |  0.923     |  2.567      |
++---------------------+--------------+------+------+------------+-------------+
+|         clk_cammera |  BUFGMUX_X2Y9| No   |  104 |  0.748     |  2.571      |
++---------------------+--------------+------+------+------------+-------------+
+|       camera_refclk |  BUFGMUX_X2Y1| No   |    2 |  0.000     |  2.476      |
++---------------------+--------------+------+------+------------+-------------+
+|             c3_clk0 |  BUFGMUX_X2Y4| No   |   89 |  0.152     |  1.977      |
++---------------------+--------------+------+------+------------+-------------+
+|    icon_control0<0> |  BUFGMUX_X2Y2| No   |  223 |  0.330     |  1.974      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_con_c3/myddr3/c3 |              |      |      |            |             |
+|        _mcb_drp_clk | BUFGMUX_X2Y12| No   |  147 |  0.116     |  2.034      |
++---------------------+--------------+------+------+------------+-------------+
+|   icon_control0<13> |         Local|      |    4 |  0.000     |  0.616      |
++---------------------+--------------+------+------+------------+-------------+
+|U_icon_pro/U0/iUPDAT |              |      |      |            |             |
+|               E_OUT |         Local|      |    1 |  0.000     |  2.988      |
++---------------------+--------------+------+------+------------+-------------+
+|          uart/rxclk |         Local|      |   20 |  1.290     |  1.982      |
++---------------------+--------------+------+------+------------+-------------+
+|          uart/txclk |         Local|      |   22 |  1.360     |  2.013      |
++---------------------+--------------+------+------+------------+-------------+
+|       contro/_n0144 |         Local|      |    1 |  0.000     |  0.371      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_con_c3/myddr3/c3 |              |      |      |            |             |
+|          _sysclk_2x |         Local|      |   35 |  0.706     |  2.433      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_con_c3/myddr3/c3 |              |      |      |            |             |
+|      _sysclk_2x_180 |         Local|      |   37 |  0.723     |  2.450      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_con_c3/myddr3/me |              |      |      |            |             |
+|mc3_wrapper_inst/mcb |              |      |      |            |             |
+|_ui_top_inst/mcb_raw |              |      |      |            |             |
+|_wrapper_inst/ioi_dr |              |      |      |            |             |
+|               p_clk |         Local|      |   22 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_con_c3/myddr3/me |              |      |      |            |             |
+|mc3_wrapper_inst/mcb |              |      |      |            |             |
+|_ui_top_inst/mcb_raw |              |      |      |            |             |
+|_wrapper_inst/idelay |              |      |      |            |             |
+|          _dqs_ioi_s |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_con_c3/myddr3/me |              |      |      |            |             |
+|mc3_wrapper_inst/mcb |              |      |      |            |             |
+|_ui_top_inst/mcb_raw |              |      |      |            |             |
+|_wrapper_inst/idelay |              |      |      |            |             |
+|          _dqs_ioi_m |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_con_c3/myddr3/me |              |      |      |            |             |
+|mc3_wrapper_inst/mcb |              |      |      |            |             |
+|_ui_top_inst/mcb_raw |              |      |      |            |             |
+|_wrapper_inst/idelay |              |      |      |            |             |
+|         _udqs_ioi_s |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_con_c3/myddr3/me |              |      |      |            |             |
+|mc3_wrapper_inst/mcb |              |      |      |            |             |
+|_ui_top_inst/mcb_raw |              |      |      |            |             |
+|_wrapper_inst/idelay |              |      |      |            |             |
+|         _udqs_ioi_m |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 4956 (Setup: 4956, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to ensure the best options
+   are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Number of Timing Constraints that were not applied: 5
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_ddr_con_c3_myddr3_memc3_infrastructure | SETUP       |    -4.956ns|    49.648ns|       1|        4956
+  _inst_mcb_drp_clk_bufg_in = PERIOD        | HOLD        |     0.411ns|            |       0|           0
+    TIMEGRP         "ddr_con_c3_myddr3_memc |             |            |            |        |            
+  3_infrastructure_inst_mcb_drp_clk_bufg_in |             |            |            |        |            
+  "         TS_sys_clk_pin / 2 HIGH 50%     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_gtxc_clk_pin = PERIOD TIMEGRP "gtxc_cl | SETUP       |     0.328ns|     7.672ns|       0|           0
+  k_pin" 8 ns HIGH 50%                      | HOLD        |     0.249ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_grxc_clk_pin = PERIOD TIMEGRP "grxc_cl | SETUP       |     0.389ns|     7.611ns|       0|           0
+  k_pin" 8 ns HIGH 50%                      | HOLD        |     0.382ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_ddr_con_c3_myddr3_memc3_infrastructure | MINPERIOD   |     0.901ns|     1.599ns|       0|           0
+  _inst_clk_2x_180 = PERIOD TIMEGRP         |             |            |            |        |            
+   "ddr_con_c3_myddr3_memc3_infrastructure_ |             |            |            |        |            
+  inst_clk_2x_180"         TS_sys_clk_pin / |             |            |            |        |            
+   8 PHASE 1.25 ns HIGH 50%                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ddr_con_c3_myddr3_memc3_infrastructure | MINPERIOD   |     0.901ns|     1.599ns|       0|           0
+  _inst_clk_2x_0 = PERIOD TIMEGRP         " |             |            |            |        |            
+  ddr_con_c3_myddr3_memc3_infrastructure_in |             |            |            |        |            
+  st_clk_2x_0" TS_sys_clk_pin         / 8 H |             |            |            |        |            
+  IGH 50%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | MINLOWPULSE |    15.000ns|     5.000ns|       0|           0
+  pin" 20 ns HIGH 50%                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ddr_con_c3_myddr3_memc3_infrastructure | SETUP       |     3.384ns|     6.616ns|       0|           0
+  _inst_clk0_bufg_in = PERIOD TIMEGRP       | HOLD        |     0.366ns|            |       0|           0
+     "ddr_con_c3_myddr3_memc3_infrastructur |             |            |            |        |            
+  e_inst_clk0_bufg_in"         TS_sys_clk_p |             |            |            |        |            
+  in / 2 HIGH 50%                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |     8.048ns|     6.952ns|       0|           0
+   TO TIMEGRP "J_CLK" 15 ns                 | HOLD        |     1.914ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    13.119ns|    16.881ns|       0|           0
+  IGH 50%                                   | HOLD        |     0.406ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    14.006ns|     0.994ns|       0|           0
+   TO TIMEGRP "U_CLK" 15 ns                 | HOLD        |     0.440ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D2_TO_T2_ila_pro_0_path" TIG     | SETUP       |         N/A|     3.866ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J2_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J3_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J4_TO_D2_ila_pro_0_path" TIG     | MAXDELAY    |         N/A|     6.293ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|    12.455ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D_TO_J_path" TIG                 | MAXDELAY    |         N/A|     5.681ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     20.000ns|      5.000ns|     99.296ns|            0|            1|            0|        30982|
+| TS_ddr_con_c3_myddr3_memc3_inf|     10.000ns|     49.648ns|          N/A|            1|            0|        27023|            0|
+| rastructure_inst_mcb_drp_clk_b|             |             |             |             |             |             |             |
+| ufg_in                        |             |             |             |             |             |             |             |
+| TS_ddr_con_c3_myddr3_memc3_inf|      2.500ns|      1.599ns|          N/A|            0|            0|            0|            0|
+| rastructure_inst_clk_2x_180   |             |             |             |             |             |             |             |
+| TS_ddr_con_c3_myddr3_memc3_inf|      2.500ns|      1.599ns|          N/A|            0|            0|            0|            0|
+| rastructure_inst_clk_2x_0     |             |             |             |             |             |             |             |
+| TS_ddr_con_c3_myddr3_memc3_inf|     10.000ns|      6.616ns|          N/A|            0|            0|         3959|            0|
+| rastructure_inst_clk0_bufg_in |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+1 constraint not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 26 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 1 mins 26 secs 
+Total CPU time to PAR completion: 1 mins 27 secs 
+
+Peak Memory Usage:  789 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 1 errors found.
+
+Number of error messages: 0
+Number of warning messages: 29
+Number of info messages: 0
+
+Writing design to file ethernet_test.ncd
+
+
+
+PAR done!

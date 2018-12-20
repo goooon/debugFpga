@@ -1,0 +1,26 @@
+
+
+
+// Instantiate the module
+UART_module instance_name (
+    .nrst(nrst), 
+    .tx_en(tx_en), 
+    .rx_en(rx_en), 
+    .clk(clk), 
+    .UART_data_in(UART_data_in), 
+    .UART_wt_en(UART_wt_en), 
+    .UART_wt_clk(UART_wt_clk), 
+    .UART_wt_full(UART_wt_full), 
+    .UART_tx(UART_tx), 
+    .UART_rd_en(UART_rd_en), 
+    .UART_rd_clk(UART_rd_clk), 
+    .UART_rx(UART_rx), 
+    .UART_rd_data(UART_rd_data), 
+    .UART_rd_empty(UART_rd_empty), 
+    .UART_rd_almostempty(UART_rd_almostempty), 
+    .rs422_de(rs422_de), 
+    .rs422_re_n(rs422_re_n), 
+    .rs422_te(rs422_te)
+    );
+
+

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj ethernet_test -o F:/theproject/14_ethernet_test/camerain_earth.tfi -lib work F:/theproject/14_ethernet_test//camerain_earth.v -module camerain_earth -template D:/HYJ/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

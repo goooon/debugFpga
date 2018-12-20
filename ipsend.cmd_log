@@ -1,0 +1,4 @@
+vhdtdtfi -lang verilog -prj ethernet_test -o D:/HYJ/Xilinx/Myproject/14_ethernet_test/ipsend.tfi -lib work D:/HYJ/Xilinx/Myproject/14_ethernet_test/rtl//ipsend.v -module ipsend -template D:/HYJ/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj ethernet_test -o C:/14_ethernet_test/14_ethernet_test/ipsend.tfi -lib work C:/14_ethernet_test/14_ethernet_test/rtl//ipsend.v -module ipsend -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/14_ethernet_test/14_ethernet_test/ipsend.xst" -ofn "C:/14_ethernet_test/14_ethernet_test/ipsend.syr" 
+xst -intstyle ise -ifn "C:/14_ethernet_test/14_ethernet_test/ipsend.xst" -ofn "C:/14_ethernet_test/14_ethernet_test/ipsend.syr" 
